@@ -1,0 +1,152 @@
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+tr {font-family: Verdana, sans-serif;}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: dimgrey;
+}
+
+button{
+    /* dimensions */
+    margin: 0;
+    height: 2.5em;
+    padding: 0 .6em;
+
+    /* text & cursor */
+    font-size: 1em; /* normalize */
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+/* Month header */
+.month {
+    padding: 20px 10px;
+    width: 90%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+/* Previous and next button inside month header */
+.month .month-prev {
+    float: left;
+    padding-top: 5px;
+    font-size:20px;
+}
+
+/* Next button */
+.month .month-next {
+    float: right;
+    padding-top: 5px;
+    font-size:20px;
+}
+
+.month .month-title {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:30px;
+    color:black;
+}
+
+.monthView {
+    padding: 20px 10px;
+    width: 90%;
+    background: #D3D3D3;
+    text-align: center;
+}
+
+.monthTable {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: #D3D3D3;
+    text-align: center;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekday {
+    background-color:#ddd;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:15px;
+    color:#777;
+
+}
+
+/* Days (1-31) */
+.days {
+    padding: 20px 10px;
+    background: #eee;
+    width: 90%;
+    margin: 0;
+}
+
+.days-cell-regular {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:30px;
+    color:#777;
+    padding: 0;
+    height: 70px;
+}
+
+/* Highlight the "current" day */
+.days-cell-today {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:30px;
+    height: 70px;
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* Highlight argentinian national holiday */
+.days-cell-national {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:30px;
+    height: 70px;
+    padding: 5px;
+    background: #6495ED;
+    color: white !important
+}
+
+/* Bottom line legend */
+
+.botton-today {
+    margin-bottom: 5px;
+    height: 70px;
+    padding: 5px;
+    width: 70px;
+    background: #1abc9c;
+}
+
+
+.botton-national {
+    margin-bottom: 5px;
+    height: 70px;
+    padding: 5px;
+    width: 70px;
+    background: #6495ED;
+}
+
+.bottom-text {
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:20px;
+    color:#777;
+}
+
+
+.
+
