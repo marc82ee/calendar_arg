@@ -1,3 +1,6 @@
+
+1)Calendar_arg.html
+
 Main design of the calendar
   - Very simple HTML page, that calls JQuery function for the initial render on document.ready
   - The main code is inside the calendar_arg_jquery.js that renders all the calendar info, months, days,...
@@ -12,3 +15,12 @@ Main design of the calendar
     - When moving through the months, current month info is updated and re-rendering is needed 
     - Additional date helpers are used to make sure that the date's info is accurate
     - Simple object nationalDay is used to store the info relative to argentinian national holidays
+
+
+2) Small DB exercise. Contents inside /DB
+   - SQL query to return the aggregarated info 
+   - A couple of INSERTs to add data to the tables. Could be scripted
+
+3) Couple of scripts inside /Other to solve anagram and frog
+    - Python script anagram.py. Given a provided word, returns the possible anagrams for it. Anagrams are defined as an array
+    - Python frog.py. Given a provided start and finish, calculates the number of jumps required
