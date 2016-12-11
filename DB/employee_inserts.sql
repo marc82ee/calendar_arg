@@ -1,0 +1,1 @@
+﻿INSERT INTO employee (emp_id, emp_name, dept_id, salary) VALUES (6, 'Marc', 10, 5000)

@@ -1,4 +1,3 @@
-ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 tr {font-family: Verdana, sans-serif;}
 h1 {
@@ -11,7 +10,6 @@ h1 {
     font-weight: bold;
     color: dimgrey;
 }
-
 button{
     /* dimensions */
     margin: 0;
@@ -27,9 +25,10 @@ button{
 /* Month header */
 .month {
     padding: 20px 10px;
-    width: 90%;
+    width: 85%;
     background: #1abc9c;
     text-align: center;
+    float: center;
 }
 
 /* Previous and next button inside month header */
@@ -37,6 +36,7 @@ button{
     float: left;
     padding-top: 5px;
     font-size:20px;
+    width:50px;
 }
 
 /* Next button */
@@ -44,6 +44,7 @@ button{
     float: right;
     padding-top: 5px;
     font-size:20px;
+    width:50px;
 }
 
 .month .month-title {
@@ -56,33 +57,43 @@ button{
 
 .monthView {
     padding: 20px 10px;
-    width: 90%;
+    width: 85%;
     background: #D3D3D3;
     text-align: center;
+    float: center;
 }
 
 .monthTable {
     padding: 0;
     margin: 0;
     width: 100%;
+    height: 480px;
     background: #D3D3D3;
     text-align: center;
+    table-layout: fixed;
 }
 
 /* Weekdays (Mon-Sun) */
 .weekday {
     background-color:#ddd;
-    height: 30px;
+    height: 35px;
     text-align: center;
     margin-bottom: 5px;
-    font-size:15px;
-    color:#777;
+    font-size:18px;
+    color:#696969;
 
 }
 
 /* Days (1-31) */
 .days {
-    padding: 20px 10px;
+    padding: 2px 2px;
+    background: #eee;
+    width: 90%;
+    margin: 0;
+}
+
+.daysRow {
+    padding: 2px 2px;
     background: #eee;
     width: 90%;
     margin: 0;
@@ -120,7 +131,6 @@ button{
 }
 
 /* Bottom line legend */
-
 .botton-today {
     margin-bottom: 5px;
     height: 70px;
@@ -143,10 +153,11 @@ button{
     display: inline-block;
     text-align: center;
     margin-bottom: 5px;
-    font-size:20px;
+    font-size:15px;
     color:#777;
 }
 
 
-.
+
+
 

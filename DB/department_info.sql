@@ -1,0 +1,1 @@
+﻿SELECT d.dept_id, count(distinct e.emp_id) AS employee_count, (SELECT SUM(e.salary)) AS salary_sum FROM department d INNER JOIN employee e ON e.dept_id = d.dept_id GROUP BY d.dept_id ORDER BY d.dept_id ASC;
